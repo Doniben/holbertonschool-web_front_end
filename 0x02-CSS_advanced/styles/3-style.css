@@ -4,7 +4,7 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: color-black;
+    --text-color: var(--color-black);
 
 }
 
@@ -15,7 +15,7 @@ html {
       color: #161616;
   }
   a {
-    color: text-color;
+    color: var(--text-color);
   }
 
   .visually-hidden {
@@ -23,9 +23,9 @@ html {
   }
 
   .card-category {
-      color: color-primary;
+      color: var(--color-primary);
   }
 
   .section-tagline {
-      color: color-primary;
+      color: var(--color-primary);
   }
