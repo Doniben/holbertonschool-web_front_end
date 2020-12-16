@@ -205,7 +205,7 @@ html {
   }
 
   .social-link > svg {
-    color: var(--text-color);
+    fill: var(--text-color);
   }
 
   .footer-address {
