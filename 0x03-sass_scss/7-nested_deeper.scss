@@ -1,0 +1,15 @@
+/* Nested and nested again */
+
+$b-fs: 14px;
+$h1-fs: 16px;
+$small-fs: 12px;
+
+body {
+    font-size: $b-fs;
+    h1 {
+        font-size: $h1-fs;
+    }
+    h1.smaller {
+        font-size: $small-fs;
+    }
+}
