@@ -1,0 +1,19 @@
+/* Extended */
+
+$b-fs: 12px;
+$green: #00FF00;
+$red: #FF0000;
+
+.info {
+    font-size: $b-fs;
+}
+
+.success {
+    @extend .info;
+    color: $green;
+}
+
+.warning {
+    @extend .info;
+    color: $red;
+}
