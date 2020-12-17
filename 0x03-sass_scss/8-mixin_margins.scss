@@ -2,7 +2,7 @@
 
 @mixin m-lr-1 ($left, $right) {
     margin-left: $left;
-    margin-left: $right;
+    margin-right: $right;
 }
 
 body {
