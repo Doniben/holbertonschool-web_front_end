@@ -1,0 +1,7 @@
+/* Loop Headers */
+
+@for $fs from 1 to 5 {
+    h#{$fs} {
+        font-size: #{$fs}px;
+    }
+}
